@@ -283,7 +283,7 @@ function startGame(){
      flashAlpha = 0;
      zombieCount = 0;
      heartbeat.play();
-    for (var i = 0; i < 0; i++){
+    for (var i = 0; i < 10; i++){
         let type = creatureTypes[randomNumber(0,creatureTypes.length-1)];
         let zombie = createSprite(randomNumber(0,700),randomNumber(0,700),14,17, randomNumber(1,30)==3, 2, "zombie");
         zombie.shapeColor = "red";
